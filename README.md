@@ -14,6 +14,12 @@ This repository contains a **starter** Jupyter Notebook for Lab A. It follows th
 | \`.gitignore\` | Excludes private raw data and generated files |
 | \`sensor_raw.csv\` | **Not created yet**. You generate this file by recording a real activity (at least 5 minutes) |
 
+## Walking recording received — start here
+
+The user's walking session was recorded on 2026-11-17 (~9 min 17 sec, median sampling frequency ~50.1 Hz). **The raw CSV is not committed** because this GitHub repository is public. Copy the unmodified uploaded **TotalAcceleration.csv** to a local file named **sensor_raw.csv** before running the notebook.
+
+**Use [VS_CODE_SETUP.md](VS_CODE_SETUP.md) for step-by-step Visual Studio Code instructions.** The notebook's time and axis mapping is already configured for this export: seconds_elapsed, x, y, z.
+
 ## Setup before recording
 
 1. Install Python 3.10+ and Git. Clone this repository:
@@ -41,7 +47,7 @@ This repository contains a **starter** Jupyter Notebook for Lab A. It follows th
    python -m notebook
    \`\`\`
 
-5. Open \`laba_lastname.ipynb\`. **Do not run the data-loading cell until you have recorded data.** Before then, it intentionally stops with a helpful FileNotFoundError.
+5. Open \`laba_lastname.ipynb\`. **Do not run the data-loading cell until you have recorded data.** Without sensor_raw.csv, it intentionally stops with a helpful FileNotFoundError.
 
 ## After recording
 
