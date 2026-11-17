@@ -1,0 +1,18 @@
+# Local virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Actual recordings may contain private GPS/location data.
+sensor_raw.csv
+sensor_clean.csv
+*.csv
+
+# Figures are reproduced by the notebook
+fig1_timeseries.png
+fig2_distribution.png
+fig3_rolling_rms.png
